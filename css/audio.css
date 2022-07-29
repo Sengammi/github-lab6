@@ -65,7 +65,7 @@
   transform: scale(1.5);
   cursor: pointer;
 }
-.audio-player .audio-buttons .audio-btn.play {
+.audio-player .audio-buttons .audio-btn.play-audio {
   transform: scale(2);
 }
 

@@ -1,5 +1,6 @@
-$audio_text_color1: #2e3192;
-$audio_text_color2: #3fa9f5;
+$COLOR_1: #2e3192;
+$COLOR_2: #3fa9f5;
+$COLOR_3: #293a56;
 *{
   margin: 0;
   padding: 0;
@@ -24,7 +25,7 @@ $audio_text_color2: #3fa9f5;
     font-style: normal;
     font-size: 18px;
     font-weight: bold;
-    color: $audio_text_color1;
+    color: $COLOR_1;
     text-align: center;
     margin-top: 12px;
   }
@@ -32,12 +33,12 @@ $audio_text_color2: #3fa9f5;
     font-style: normal;
     font-size: 24px;
     font-weight: bold;
-    color: $audio_text_color2;
+    color: $COLOR_2;
     text-align: center;
     margin-top: 12px;
   }
   .audio-progress-container{
-    background-color: $audio_text_color1;
+    background-color: $COLOR_1;
     border-radius: 5px;
     width: 100%;
     height: 12px;
@@ -48,7 +49,7 @@ $audio_text_color2: #3fa9f5;
     padding-left: 3px;
     padding-right: 3px;
     .audio-progress{
-      background-color: $audio_text_color2;
+      background-color: $COLOR_2;
       border-radius: 5px;
       height: 6px;
     }
@@ -63,10 +64,59 @@ $audio_text_color2: #3fa9f5;
     .audio-btn{
       transform: scale(1.5);
       cursor: pointer;
-      &.play{
+      &.play-audio{
         transform: scale(2);
       }
     }
   }
 }
 
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  .video-player {
+    max-width: 850px;
+    width: 100%;
+    border-radius: 30px;
+    //background: #eff3f5;
+    .video {
+      max-width: 100%;
+      border-radius: 30px 30px 0 0;
+    }
+    .video-controls {
+      background-color: $COLOR_3;
+      border-radius: 0 0 30px 30px;
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      margin: -5px 0 0 0;
+      height: 70px;
+      .video-controls_play-video{
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      .video-controls_next-video{
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      .video-controls_prev-video{
+        cursor: pointer;
+      }
+      .video-controls_progress{
+        width: 100%;
+        padding-right: 30px;
+        .video-progress{
+          width: 100%;
+        }
+      }
+      .video-controls_time{
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+      }
+    }
+  }
+}

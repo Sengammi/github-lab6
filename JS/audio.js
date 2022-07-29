@@ -1,5 +1,5 @@
 const player = document.querySelector('.audio-player'),
-        playBtn = document.querySelector('.play'),
+        playBtn = document.querySelector('.play-audio'),
         prevBtn = document.querySelector('.prev'),
         nextBtn = document.querySelector('.next'),
         audio = document.querySelector('.audio'),
