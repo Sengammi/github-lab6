@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <title>Завдання №6</title>
     <link rel="stylesheet" href="css/audio.css">
+
 </head>
 <body>
     <div class="audio-wrapper">
         <div class="audio-player">
-            <div class="audio-title">Now playing</div>
-            <div class="audio-song">Tom Odell - Another love</div>
+            <div class="audio-author">Tom Odell</div>
+            <div class="audio-song">Another love</div>
+            <audio src="./Audio/Tom Odell - Another Love.mp3" class="audio"></audio>
             <div class="audio-progress-container">
                 <div class="audio-progress"></div>
             </div>
             <div class="audio-buttons">
                 <div class="audio-btn prev"><img src="./Svg/back-music.svg" alt="btn"></div>
-                <div class="audio-btn play"><img src="./Svg/music-play.svg" alt="btn"></div>
+                <div class="audio-btn play"><img class="audio-play-or-stop" src="./Svg/music-play.svg" alt="btn"></div>
                 <div class="audio-btn next"><img src="./Svg/forward-music.svg" alt="btn"></div>
             </div>
         </div>
     </div>
+    <div class="video-wrapper">
+        <div class="video-player">
+            <video src="./Video/Sakuga.mp4" class="video"></video>
+            <div class="video-controls">
+                <div class="video-controls_prev"><img src="./Svg/back-music.svg" alt="btn"></div>
+                <div class="video-controls_play"><img class="video-play-or-stop" src="./Svg/music-play.svg" alt="btn"></div>
+                <div class="video-controls_next"><img src="./Svg/forward-music.svg" alt="btn"></div>
+                <div class="video-controls_progress">
+                    <input type="range" class="video-progress">
+                </div>
+                <div class="video-controls_time">00:00</div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/audio.js"></script>
 </body>
 </html>

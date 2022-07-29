@@ -11,7 +11,7 @@ $audio_text_color2: #3fa9f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e4e9ed;
+  height: 500px;
 }
 .audio-player{
   background: #eff3f5;
@@ -19,19 +19,20 @@ $audio_text_color2: #3fa9f5;
   max-width: 380px;
   width: 100%;
   padding: 25px;
-  .audio-title{
+
+  .audio-author{
     font-style: normal;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
     color: $audio_text_color1;
     text-align: center;
-    line-height: 16px;
+    margin-top: 12px;
   }
   .audio-song{
     font-style: normal;
     font-size: 24px;
     font-weight: bold;
-    color: $audio_text_color1;
+    color: $audio_text_color2;
     text-align: center;
     margin-top: 12px;
   }
@@ -50,7 +51,6 @@ $audio_text_color2: #3fa9f5;
       background-color: $audio_text_color2;
       border-radius: 5px;
       height: 6px;
-      width: 150px;
     }
   }
   .audio-buttons{
@@ -62,9 +62,11 @@ $audio_text_color2: #3fa9f5;
     margin: 40px auto 0;
     .audio-btn{
       transform: scale(1.5);
+      cursor: pointer;
       &.play{
         transform: scale(2);
       }
     }
   }
 }
+

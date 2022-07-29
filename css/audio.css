@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e4e9ed;
+  height: 500px;
 }
 
 .audio-player {
@@ -20,19 +20,19 @@
   width: 100%;
   padding: 25px;
 }
-.audio-player .audio-title {
+.audio-player .audio-author {
   font-style: normal;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
   color: #2e3192;
   text-align: center;
-  line-height: 16px;
+  margin-top: 12px;
 }
 .audio-player .audio-song {
   font-style: normal;
   font-size: 24px;
   font-weight: bold;
-  color: #2e3192;
+  color: #3fa9f5;
   text-align: center;
   margin-top: 12px;
 }
@@ -52,7 +52,6 @@
   background-color: #3fa9f5;
   border-radius: 5px;
   height: 6px;
-  width: 150px;
 }
 .audio-player .audio-buttons {
   display: flex;
@@ -64,6 +63,7 @@
 }
 .audio-player .audio-buttons .audio-btn {
   transform: scale(1.5);
+  cursor: pointer;
 }
 .audio-player .audio-buttons .audio-btn.play {
   transform: scale(2);
