@@ -1,7 +1,7 @@
 const player = document.querySelector('.audio-player'),
         playBtn = document.querySelector('.play-audio'),
-        prevBtn = document.querySelector('.prev'),
-        nextBtn = document.querySelector('.next'),
+        prevBtn = document.querySelector('.prev-audio'),
+        nextBtn = document.querySelector('.next-audio'),
         audio = document.querySelector('.audio'),
         progressContainer = document.querySelector('.audio-progress-container'),
         progress = document.querySelector('.audio-progress'),
@@ -24,13 +24,13 @@ loadSong(authors[songIndex] ,songs[songIndex])
 
 function playSong(){
     player.classList.add('play')
-    playOrStop.src = '/Svg/music-pause.svg'
+    playOrStop.src = './Svg/music-pause.svg'
     audio.play()
 }
 
 function pauseSong(){
     player.classList.remove('play')
-    playOrStop.src = '/Svg/music-play.svg'
+    playOrStop.src = './Svg/music-play.svg'
     audio.pause()
 }
 
