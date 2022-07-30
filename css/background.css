@@ -1,3 +1,51 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
 
+.task_3 .back {
+  width: 1280px;
+  background-repeat: no-repeat;
+  background-image: url("../Image/0.png");
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.task_3 .back .element-6 {
+  background-repeat: no-repeat;
+  background-position: 22% 24%;
+  background-image: url("../Image/6.png");
+}
+.task_3 .back .element-6 .element-5 {
+  background-repeat: no-repeat;
+  background-position: 29% 58%;
+  background-image: url("../Image/5.png");
+}
+.task_3 .back .element-6 .element-5 .element-4 {
+  background-repeat: no-repeat;
+  background-position: 74.5% 70%;
+  background-image: url("../Image/3.png");
+}
+.task_3 .back .element-6 .element-5 .element-4 .element-3 {
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+  background-image: url("../Image/2.png");
+}
+.task_3 .back .element-6 .element-5 .element-4 .element-3 .element-2 {
+  background-repeat: no-repeat;
+  background-position: 85.5% 87%;
+  background-image: url("../Image/4.png");
+  display: flex;
+}
+.task_3 .back .element-6 .element-5 .element-4 .element-3 .element-2 .element-1 {
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-image: url("../Image/1.png");
+  height: 946px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
 
 /*# sourceMappingURL=background.css.map */
