@@ -1,0 +1,29 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #cb7f69;
+}
+
+a:active {
+  color: #ff805d;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  background-color: grey;
+  border: none;
+}
+
+/*# sourceMappingURL=index.css.map */
