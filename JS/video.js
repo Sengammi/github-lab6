@@ -36,6 +36,17 @@ playBtnVid.addEventListener('click', () => {
     }
 })
 
+window.addEventListener('keydown', (e) => {
+    if (e.key === " "){
+        const isPlaying = video.classList.contains('play')
+        if (isPlaying){
+            pauseVid()
+        } else {
+            playVid()
+        }
+    }
+})
+
 video.addEventListener('click', () => {
     const isPlaying = video.classList.contains('play')
     if (isPlaying){
