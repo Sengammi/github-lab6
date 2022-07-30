@@ -91,23 +91,31 @@ $COLOR_3: #293a56;
       border-radius: 0 0 30px 30px;
       display: flex;
       align-items: center;
-      padding: 15px 20px;
+      padding: 15px 25px 15px 20px;
       margin: -5px 0 0 0;
       height: 70px;
       .video-controls_play-video{
         margin: 0 5px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
       }
       .video-controls_next-video{
         margin-right: 20px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
       }
       .video-controls_prev-video{
         cursor: pointer;
+        display: flex;
+        align-items: center;
       }
       .video-controls_progress{
         width: 100%;
         padding-right: 30px;
+        display: flex;
+        align-items: center;
         .video-progress{
           width: 100%;
         }
@@ -116,6 +124,9 @@ $COLOR_3: #293a56;
         color: white;
         font-weight: 500;
         font-size: 24px;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
       }
     }
   }

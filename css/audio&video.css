@@ -90,24 +90,32 @@
   border-radius: 0 0 30px 30px;
   display: flex;
   align-items: center;
-  padding: 15px 20px;
+  padding: 15px 25px 15px 20px;
   margin: -5px 0 0 0;
   height: 70px;
 }
 .video-wrapper .video-player .video-controls .video-controls_play-video {
   margin: 0 5px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .video-wrapper .video-player .video-controls .video-controls_next-video {
   margin-right: 20px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .video-wrapper .video-player .video-controls .video-controls_prev-video {
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .video-wrapper .video-player .video-controls .video-controls_progress {
   width: 100%;
   padding-right: 30px;
+  display: flex;
+  align-items: center;
 }
 .video-wrapper .video-player .video-controls .video-controls_progress .video-progress {
   width: 100%;
@@ -116,6 +124,9 @@
   color: white;
   font-weight: 500;
   font-size: 24px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=audio&video.css.map */
