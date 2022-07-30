@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7399bedf-2124-41ad-add9-7102b241d738" name="Changes" comment="" />
+    <list default="true" id="7399bedf-2124-41ad-add9-7102b241d738" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/maket.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/maket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/maket.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/maket.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maket.html" beforeDir="false" afterPath="$PROJECT_DIR$/maket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/maket.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/maket.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
