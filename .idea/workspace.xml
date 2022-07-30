@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385dfe93-3237-4c9b-81de-f3904a8a733a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/audio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio&amp;video.html" beforeDir="false" afterPath="$PROJECT_DIR$/audio&amp;video.html" afterDir="false" />
-    </list>
+    <list default="true" id="7399bedf-2124-41ad-add9-7102b241d738" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
