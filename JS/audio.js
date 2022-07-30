@@ -41,7 +41,7 @@ playBtn.addEventListener('click', () => {
     } else {
         playSong()
     }
-});
+})
 
 function nextSong(){
     songIndex++

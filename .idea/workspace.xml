@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="385dfe93-3237-4c9b-81de-f3904a8a733a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/audio&amp;video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/audio&amp;video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/audio&amp;video.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/audio&amp;video.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/audio&amp;video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/audio&amp;video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio&amp;video.html" beforeDir="false" afterPath="$PROJECT_DIR$/audio&amp;video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <workItem from="1659039486620" duration="3301000" />
       <workItem from="1659091147891" duration="7957000" />
       <workItem from="1659102424539" duration="22568000" />
-      <workItem from="1659174619635" duration="715000" />
+      <workItem from="1659174619635" duration="2786000" />
     </task>
     <servers />
   </component>
